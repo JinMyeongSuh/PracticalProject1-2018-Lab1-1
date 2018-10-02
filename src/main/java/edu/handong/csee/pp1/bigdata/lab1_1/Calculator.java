@@ -102,6 +102,10 @@ public class Calculator {
 	int divide(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
+		if(second == 0) {
+			System.out.println("Cannot divide with zero");
+			return (int)Double.NaN;
+		}
 		return first / second;
 	}
 
