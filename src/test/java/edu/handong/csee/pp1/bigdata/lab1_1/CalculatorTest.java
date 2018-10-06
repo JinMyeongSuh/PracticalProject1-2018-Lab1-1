@@ -30,14 +30,14 @@ public class CalculatorTest {
 	public void testMod() {
 		// TODO Complete this test case
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.mod(7,3),1);
+		assertEquals(myCalc.mod(2,3),2);
 	}
 
 	@Test
 	public void testMultiply() {
 		// TODO Complete this test case
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.multiply(5, 3),15);
+		assertEquals(myCalc.multiply(2,3),6);
 	}
 	
 	@Test
